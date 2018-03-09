@@ -8,6 +8,19 @@
     <h1>BROOKLYN COLLEGE COMPUTER SCIENCE CLUB</h1>
     <h2>By. Barry Ni, Frankie Ta, Syed Azmain</h2>
     <p>**** you barry</p>
+    <div id="app">
+      {{ message }}
+    </div>
   </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script>  
+    var app = new Vue({
+        el: '#app',
+        data: {
+          message: 'Hello Vue!'
+        }
+      })
+  </script>
 
 </html>
