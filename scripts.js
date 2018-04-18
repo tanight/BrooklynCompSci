@@ -1,29 +1,29 @@
-$(window).on("load", function() {
+$(window).on("load", function () {
 
-    $(".main").fadeIn(1000);
-  
+  $(".main").fadeIn(1000);
+
 });
 
-$(window).on("load", function() {
+$(window).on("load", function () {
 
-    $(".load-screen").delay(1600).fadeOut(500).queue(function(){
-  
-      $(this).dequeue();
-      $(".main").fadeIn(400);
-      $(".intro-img").addClass("slideup-animation");
-      $(".intro-heading").addClass("slideup-animation");
-      $(".intro-p").addClass("slideup-animation");
-      $(".intro-link").addClass("slideup-animation");
-    });
-  
+  $(".load-screen").delay(2500).fadeOut(500).queue(function () {
+
+    $(this).dequeue();
+    $(".main").fadeIn(400);
+    $(".intro-img").addClass("slideup-animation");
+    $(".intro-heading").addClass("slideup-animation");
+    $(".intro-p").addClass("slideup-animation");
+    $(".intro-link").addClass("slideup-animation");
+  });
+
 });
- 
+
 var app = new Vue({
-    el: '#app',
-    data: {
-      message: 'Hello Vue!'
-    }
-  })
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  }
+})
 var app2 = new Vue({
   el: '#app-2',
   data: {
@@ -41,10 +41,15 @@ var app3 = new Vue({
 var app4 = new Vue({
   el: '#app-4',
   data: {
-    todos: [
-      { text: 'Learn JavaScript' },
-      { text: 'Learn Vue' },
-      { text: 'Build something awesome' }
+    todos: [{
+        text: 'Learn JavaScript'
+      },
+      {
+        text: 'Learn Vue'
+      },
+      {
+        text: 'Build something awesome'
+      }
     ]
   }
 })
@@ -65,9 +70,9 @@ let ufo = document.querySelector('.ufo');
 
 ufo.addEventListener('mousemove', (e) => {
   let eyes = document.querySelector('.eyes');
-  let mouseX = (eyes.getBoundingClientRect().left); 
+  let mouseX = (eyes.getBoundingClientRect().left);
   let mouseY = (eyes.getBoundingClientRect().top);
   let radianDegrees = Math.atan2(e.pageX - mouseX, e.pageY - mouseY);
-  let rotationDegrees = (radianDegrees * (180/ Math.PI) * -1) + 180;
+  let rotationDegrees = (radianDegrees * (180 / Math.PI) * -1) + 180;
   eyes.style.transform = `rotate(${rotationDegrees}deg)`
 });
