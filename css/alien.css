@@ -1,9 +1,9 @@
 .ufo {
   font-size: 25vmin;
-  position: absolute;
   width: 100%;
   height: 100%;
   cursor: pointer;
+  grid-column-start: 1;
 }
 
 .monster {
