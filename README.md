@@ -14,3 +14,6 @@ npm run dev
 # build for production with minification
 npm run build
 ```
+
+_NOTE_
+-main.js: bad naming practice > component named 'Event'

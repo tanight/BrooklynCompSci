@@ -7,6 +7,7 @@ Vue.use(VueRouter);
 import Hello from "./components/Hello";
 import About from "./components/About";
 import Example from "./components/Example";
+import Event from "./components/Event";
 
 const routes = [
   //define the root url of the application
@@ -21,6 +22,10 @@ const routes = [
   {
     path: "/example",
     component: Example
+  },
+  {
+    path: "/event",
+    component: Event
   }
 ];
 

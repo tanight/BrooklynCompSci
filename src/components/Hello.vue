@@ -1,8 +1,6 @@
 <template>
   <div class="hello">
-    
      <h1>{{ msg }}</h1>
-     
     <coverflow :coverList="coverList" :coverWidth="260" :coverHeight="260" :index="2"></coverflow>
 
     <h2>Follow Us On</h2>

@@ -6,6 +6,7 @@
       <router-link v-bind:to="'/'">Home</router-link>
       <router-link v-bind:to="'/about'">About</router-link>
       <router-link v-bind:to="'/example'">Example</router-link>
+      <router-link v-bind:to="'/event'">Event</router-link>
     </h2>
     
     <router-view></router-view>
