@@ -1,13 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.jpg">
-    <h1>{{ msg }}</h1>
     <h2 class="navbar">
       <router-link v-bind:to="'/'">Home</router-link>
       <router-link v-bind:to="'/about'">About</router-link>
-      <router-link v-bind:to="'/example'">Example</router-link>
+      <router-link v-bind:to="'/faq'">FAQ</router-link>
       <router-link v-bind:to="'/event'">Event</router-link>
     </h2>
+    <img src="./assets/logo.jpg">
+    <br>
+    <h1>{{ msg }}</h1>
+
+    
     
     <router-view></router-view>
   </div>

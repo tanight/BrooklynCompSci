@@ -6,7 +6,7 @@ Vue.use(VueRouter);
 
 import Hello from "./components/Hello";
 import About from "./components/About";
-import Example from "./components/Example";
+import FAQ from "./components/FAQ";
 import Event from "./components/Event";
 
 const routes = [
@@ -20,13 +20,14 @@ const routes = [
     component: About
   },
   {
-    path: "/example",
-    component: Example
-  },
-  {
     path: "/event",
     component: Event
-  }
+  },
+  {
+    path: "/faq",
+    component: FAQ
+  },
+
 ];
 
 const router = new VueRouter({
