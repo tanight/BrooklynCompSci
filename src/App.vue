@@ -8,7 +8,6 @@
       <router-link v-bind:to="'/example'">Example</router-link>
     </h2>
     
-
     <router-view></router-view>
   </div>
 </template>
