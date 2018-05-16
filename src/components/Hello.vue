@@ -16,7 +16,7 @@
       <li><a href="http://www.brooklyn.cuny.edu/web/home.php" target="_blank">Brooklyn College Home</a></li>
       <li><a href="https://portal.brooklyn.edu/uPortal/f/welcome/normal/render.uP" target="_blank">Web Central Portal</a></li>
       <li><a href="https://www.facebook.com/brooklyncollege/" target="_blank">Brooklyn College Facebook</a></li>
-      <li><a href="https://bit.ly/2IeoGDZ" target="_blank">Brooklyn College Twitter</a></li>
+      <li><a href="https://twitter.com/BklynCollege411" target="_blank">Brooklyn College Twitter</a></li>
     </ul>
   </div>
 </template>
