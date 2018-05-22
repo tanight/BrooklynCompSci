@@ -5,6 +5,7 @@
 ## Demo build
 
 https://cisc4900csclub.netlify.com/
+https://hardcore-lamport-326061.netlify.com/ - Syed's Version
 
 ## Build Setup
 
