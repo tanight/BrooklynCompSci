@@ -2,6 +2,10 @@
 
 > Brooklyn College Computer Science Club Webpage
 
+## Demo build
+
+https://cisc4900csclub.netlify.com/
+
 ## Build Setup
 
 ```bash
