@@ -5,7 +5,7 @@
 
     <h2>Follow Us On</h2>
      <ul class="social">
-      <li><a href="/" target="_blank"><img src="../assets/social/facebook.png"></a></li>
+      <li><a href="https://www.facebook.com/groups/bc.cis.club/?ref=group_header" target="_blank"><img src="../assets/social/facebook.png"></a></li>
       <li><a href="/" target="_blank"><img src="../assets/social/instagram.png"></a></li>
       <li><a href="/" target="_blank"><img src="../assets/social/slack.png"></a></li>
       <li><a href="/" target="_blank"><img src="../assets/social/twitter.png"></a></li>
