@@ -1,6 +1,13 @@
 # brooklyncompsci
 
 > Brooklyn College Computer Science Club Webpage
+> 05/23/17 - page request for deployment by Professor Lawrence Goetz.
+
+CISC4900 Course Project
+
+Project intended for the Computer Science Club by Barry Ni, Frankie Ta, Syed Azmain.
+
+For updates to the page consider requesting an issue.
 
 ## Demo build
 

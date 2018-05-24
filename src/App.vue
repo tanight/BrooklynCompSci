@@ -7,10 +7,6 @@
       <router-link v-bind:to="'/event'">Event</router-link>
     </h2>
     <img src="./assets/logo.jpg">
-    <br>
-    <h1>{{ msg }}</h1>
-
-    
     
     <router-view></router-view>
   </div>
@@ -18,12 +14,7 @@
 
 <script>
 export default {
-  name: "app",
-  data() {
-    return {
-      msg: " "
-    };
-  }
+  name: "app"
 };
 </script>
 
