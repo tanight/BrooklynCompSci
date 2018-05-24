@@ -1,6 +1,7 @@
 # brooklyncompsci
 
 > Brooklyn College Computer Science Club Webpage
+>
 > 05/23/17 - page request for deployment by Professor Lawrence Goetz.
 
 CISC4900 Course Project
