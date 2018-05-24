@@ -1,4 +1,4 @@
-# brooklyncompsci
+# BrooklynCompSci
 
 > Brooklyn College Computer Science Club Webpage
 >
